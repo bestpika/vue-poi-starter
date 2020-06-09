@@ -1,0 +1,26 @@
+{
+  "name": "vue-parcel-starter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "poi index.html --serve --debug",
+    "watch": "poi index.html --watch --debug",
+    "build": "poi index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.5",
+    "tether": "^1.4.7",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
